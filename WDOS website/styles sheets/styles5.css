@@ -1,0 +1,205 @@
+header{
+    background-image: url('../images/backgroundfinal.jpg');
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: poppins;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    max-width: 1070px;
+    width: 100%;
+    margin: auto;
+}
+body{
+  background-color: white;
+  font-family: poppins;
+  text-align: center;
+  color: black;
+}
+.logo{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #202020;
+    text-align: left;
+    background-color: white;
+    text-decoration: none;
+  }
+  .logo span{
+    color: #40aa54;
+  }
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: poppins;
+  }
+  .search-bar button{
+    padding: 8px 12px;
+    background-color: #40aa54;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: poppins;
+  }
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li{
+    margin-right: 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #202020;
+    font-weight: bold;
+  }
+  nav li a:hover{
+    color: #40aa54;
+    transition: all ease 0.3s;
+  }
+  h5{
+    color: white;
+    background-color: white;
+  }
+
+  .image-container{
+    display: flex;
+  }
+  .image-container img{
+    margin-right: 10px;
+    width: 440px;
+    height: auto;
+  }
+   .flex-container{
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    flex-wrap: wrap;
+   } 
+  .product{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid darkgreen;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  .product img{
+    max-width: 100%;
+    background-color: white;
+    height: auto;
+  }
+
+  h4{
+    margin-bottom: 5px;
+    color: #202020;
+  }
+  h2{
+    text-align: left;
+    color: #202020;
+    
+  }
+  
+  .footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #40aa54;
+    color: #fff;
+  }
+  
+  .footer-nav, .social-media, .copyright{
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-nav ul, .social-media ul{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-nav ul li a, .social-media ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: poppins;
+  }
+  .social-media ul li img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #40aa54;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .copyright p{
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-family: poppins;
+  }
+  @media only screen and (max-width: 700px){
+    header{
+      padding: 15px;
+      justify-content: center;
+    }
+    .navigation{
+      padding: 10px;
+      flex-direction: column;
+    }
+    .logo{
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    nav ul{
+      justify-content: center;
+      margin-top: 10px;
+    }
+    nav ul li{
+      margin: 0 10px;
+    }
+    .image-container{
+      padding: 15px;
+      margin: 0;
+      width: 100%;
+      text-align: center;
+    }
+    h2{
+      padding: 15px;
+      margin: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .image-container img{
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .product{
+      max-width: 100%;
+      margin: 10px 0;
+    }
+    .footer-container{
+      flex-direction: column;
+      padding: 10px;
+    }
+    .footer-nav, .social-media{
+      margin: 0;
+      text-align: center;
+    }
+    .social-media ul li img{
+      margin: 5px;
+    }
+  }
+  
